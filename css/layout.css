@@ -9,19 +9,96 @@
   -moz-box-sizing: border-box;
 }
 
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  height: 0;
-  line-height: 0;
-}
 
-.clear {
-  clear: both;
-}
 
 /* Posititoning Classes */
+#container {
+
+  width: 960px;
+  margin: 0 auto;
+  height: 100%;
+  float:center;
+
+}
+
+#main {
+  display: table-cell;
+  width: 66%;
+  float: left;
+  height: 100%
+}
+#aside {
+    display: table-cell;
+    padding-left: 30px;
+    width: 33%;
+    float: left;
+}
+
+#second_container {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 50px;
+  height: 450px;
+  float: center;
+
+}
+
+#leftern_most_box {
+  display: table-cell;
+  width: 30%;
+  height: 300px;
+
+}
+
+#middle_box {
+  display: table-cell;
+  padding-left: 30px;
+  width: 30%;
+  height: 300px;
+
+}
+
+#right_box {
+  display: table-cell;
+  padding-left: 30px;
+  width: 30%;
+  height: 300px;
+}
 
 
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+
+
+#contact_container {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 50px;
+  height: 450px;
+  float: center;
+}
+
+#email_and_phone {
+  display: table-cell;
+  height: 300px;
+  width: 30%
+}
+
+#links {
+  display: table-cell;
+  height: 300px;
+  width: 30%
+}
+
+#social {
+  display: table-cell;
+  height: 300px;
+  width: 30%
+}
